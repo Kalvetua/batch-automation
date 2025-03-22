@@ -1,2 +1,3 @@
-# Automating tasks through the power of batch
-This is a list of miscellaneous batch scripts that automate various tasks.
+# Batch Automation
+
+This repository servers to list miscellaneous batch scripts that were created with the intended purpose of automating various, otherwise dull or tedious, tasks.
