@@ -1,0 +1,18 @@
+:: Updates all outdated pip packages
+
+@ECHO OFF
+
+ECHO Looking for outdated packages...
+:: Extracts a list of the outdated packages
+pip list --outdated > outdated_packages.txt
+
+ECHO Updating the outdated packages...
+:: Loops through the first word on each line in "outdated_packages.txt" and updates the corresponding pip package
+for /F "skip=2 tokens=1" %%A in (outdated_packages.txt) do pip install --upgrade %%A
+
+:: Deletes the now outdated list of outdated packages
+del outdated_packages.txt
+
+ECHO Packages updated!
+
+PAUSE
