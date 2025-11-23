@@ -1,3 +1,3 @@
 # Batch Automation
 
-This repository serves to list miscellaneous batch scripts that were created with the intended purpose of automating various, otherwise dull or tedious, tasks. By hosting the scripts here, they remain easily accessible from any device that has access to the internet, instead of gathering dust on my local drives- where the scripts would be inaccessible to anyone in need of them.
+The purpose of this repository is to list miscellaneous batch scripts that were created with the intended purpose of automating dull or tedious tasks. By hosting the scripts here, they remain easily accessible from any device that has access to the internet, instead of gathering dust on my local drives- where the scripts would be inaccessible to anyone in need of them.
